@@ -1,0 +1,49 @@
+#events-specials-form{
+  label{
+    width: auto;
+  }
+}
+
+.events-specials-item{
+  width: 100%;
+  min-height: 50px;
+  padding: 20px 0px 10px;
+  border-bottom: 1px #ccc dotted;
+  .icon{
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+    i{
+      font-size: 28px;
+    }
+  }
+  .info-box{
+    float: left;
+    height: 100%;
+    max-width: 400px;
+    h4{
+      margin-top: 0px;
+      small{
+        text-transform: capitalize;
+      }
+    }
+    .times{
+      font-size: 13px;
+    }
+    .description{
+      font-size: 16px
+    }
+  }
+}
+
+.events-specials-item:last-child{
+  border-bottom: none;
+}
+
+@media (max-width: 767px){
+  .events-specials-item{
+    .info-box{
+      max-width: 250px;
+    }
+  }
+}

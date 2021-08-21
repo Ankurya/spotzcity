@@ -1,0 +1,33 @@
+section#banner-ad{
+  min-height: 142px;
+  background-color: #f1f1f1;
+
+  div.ad-container{
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  img.ad{
+    max-width: 1000px;
+    border: 1px solid #ddd;
+  }
+}
+
+
+@media (max-width: 767px){
+  section#banner-ad{
+    min-height: 75px;
+    background-color: #f1f1f1;
+
+    div.ad-container{
+      padding-top: 12px;
+      padding-bottom: 10px;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+
+    img.ad{
+      max-width: 100%;
+      border: 1px solid #ddd;
+    }
+  }
+}

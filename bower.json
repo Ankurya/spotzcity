@@ -1,0 +1,15 @@
+{
+  "name": "package",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "lodash": "~4.16.1",
+    "jt.timepicker": "jquery-timepicker-jt#~1.11.5",
+    "validatinator": "~1.3.3",
+    "moment": "momentjs#~2.15.1",
+    "uninstall": "*",
+    "jquery.inputmask": "~3.3.4",
+    "eonasdan-bootstrap-datetimepicker": "~4.17.47",
+    "bootstrap": "~3.3.7"
+  }
+}

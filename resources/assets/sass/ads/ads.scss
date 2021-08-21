@@ -1,0 +1,121 @@
+@import '../variables.scss';
+
+div.ad-types{
+  margin-bottom: 15px;
+
+  div.ad-type{
+    border: 1px solid #ccc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    background: #f7f7f7;
+  }
+  h3{
+    margin-top: 0px;
+  }
+  p{
+    font-size: 18px;
+  }
+}
+
+div.current-ads{
+  min-height: 180px;
+  margin-bottom: 25px;
+  p.no-ads{
+    margin-top: 30px;
+  }
+  div.ad{
+    border-bottom: 1px dotted #ccc;
+  }
+  div.ad:last-child{
+    border-bottom: none;
+  }
+}
+
+form#create-ad{
+  .form-group{
+    margin-top: 25px;
+    clear: both;
+  }
+  .form-group:first-child{
+    margin-top: 0px;
+  }
+}
+
+input.ad{
+  height: 350px;
+  position: relative;
+  top: 0px;
+}
+
+
+div#ad-drop{
+  height: 350px;
+  border: 1px dashed $brand-primary;
+  button.btn{
+    transition: ease 300ms;
+    color: white;
+    background-color: $brand-primary;
+    margin-top: -45px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  div.indicators{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+}
+
+div#ad-drop:hover{
+  border: 1px dashed $brand-info;
+  button.btn{
+    border-color: 1px dashed $brand-info;
+    background-color: $brand-info;
+  }
+}
+
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}
+
+div.due-today{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #ccc;
+  background: #eee;
+  border-radius: 4px;
+  margin-bottom: 15px;
+
+  h4{
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  a.btn{
+    display: block;
+    margin-top: 5px;
+  }
+}
+
+div.card{
+  vertical-align: middle;
+  min-height: 20px;
+  border-bottom: 1px dotted #ddd;
+  padding: 5px 0px 10px;
+  margin-bottom: 5px;
+  p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+}
+
+div.cards-list{
+  margin-bottom: 25px;
+}

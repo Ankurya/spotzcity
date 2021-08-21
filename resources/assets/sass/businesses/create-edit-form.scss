@@ -1,0 +1,163 @@
+@import "../variables";
+
+.left-business-section{
+  border-right: 1px solid #ccc;
+  .form-group:first-child{
+    margin-top: -25px;
+  }
+  input{
+    margin-bottom: 10px;
+  }
+  div.radio{
+    margin-top: 5px;
+    padding-left: 0px;
+    label{
+      margin-right: 20px;
+      display: block;
+      float: left;
+      max-width: 50px;
+      clear: none;
+    }
+  }
+}
+
+.right-business-section{
+  .form-group:first-child{
+    margin-top: -25px;
+  }
+
+  .form-group{
+    margin-top: 25px;
+  }
+}
+
+.big-checklist{
+  label{
+    display: block;
+    font-size: 13px;
+  }
+}
+
+input.logo{
+  height: 350px;
+  position: relative;
+  top: 0px;
+}
+
+
+div#logo-drop{
+  height: 350px;
+  border: 1px dashed $brand-primary;
+  button.btn{
+    transition: ease 300ms;
+    color: white;
+    background-color: $brand-primary;
+    margin-top: -45px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+div#logo-drop:hover{
+  border: 1px dashed $brand-info;
+  button.btn{
+    border-color: 1px dashed $brand-info;
+    background-color: $brand-info;
+  }
+}
+
+div#featured-drop{
+  height: 250px;
+
+  input.file-drop{
+    height: 100%;
+  }
+
+  div.logo-input-wrap{
+    border: 1px dashed $brand-primary;
+    clear: both;
+    height: 150px;
+  }
+
+  div.featured-thumb{
+    min-height: 90px;
+    background-position: center center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    margin: 0px -7px 10px -15px;
+  }
+
+  button.btn{
+    transition: ease 300ms;
+    color: white;
+    background-color: $brand-primary;
+    margin-top: -45px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  i.icon-camera{
+    transition: ease 300ms;
+    color: $brand-primary;
+    font-size: 55px;
+    display: block;
+    text-align: center;
+    margin: -121px auto 68px;
+  }
+
+  span.close-me{
+    transition: ease-in 300ms;
+    opacity: 0.3;
+    color: $brand-primary;
+    margin-top: -8px;
+    margin-right: -13px;
+    font-size: 150%;
+  }
+
+  span.close-me:hover{
+    cursor: pointer;
+    opacity: 1;
+  }
+}
+
+div#featured-drop:hover{
+  div.logo-input-wrap{
+    border: 1px dashed $brand-info;
+  }
+  i.icon-camera{
+    color: $brand-info;
+  }
+  button.btn{
+    border-color: 1px dashed $brand-info;
+    background-color: $brand-info;
+  }
+}
+
+div.logo-input-wrap{
+  background-position: center 36%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.sub-header{
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+label.day-label{
+  font-size: 13px;
+  white-space: nowrap;
+  font-weight: 400;
+  line-height: 40px;
+  vertical-align: middle;
+}
+
+div.time-selector{
+  padding-top: 4px;
+}
+

@@ -1,0 +1,196 @@
+div.business-page{
+  h1.section-header{
+    margin-top: -5px;
+    margin-bottom: 15px;
+    max-width: 500px;
+  }
+
+  img.logo{
+    max-width: 100px;
+    margin-right: 10px;
+    margin-top: -3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  small.rating{
+    font-size: 80%;
+  }
+
+  #rating-bar{
+    margin: 0px 0px -5px;
+  }
+
+  small.categories{
+    font-size: 50%;
+    color: #676767;
+  }
+
+  .actions{
+    position: absolute;
+    right: 15px;
+    button, a{
+      min-width: 150px;
+    }
+  }
+
+  .map-info{
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .map{
+    min-height: 325px;
+    #map-canvas-0{
+      border: 1px solid #aaa;
+      min-height: 325px;
+    }
+  }
+
+  .info{
+    padding: 30px;
+    background-color: #eee;
+    height: 100%;
+    min-height: 325px;
+    font-size: 17px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .feature-photo{
+    background-position: center;
+    background-size: cover;
+    min-height: 151px;
+  }
+
+  hr{
+    border-color: #ccc;
+  }
+
+  .hours{
+    font-size: 105%;
+    padding: 5px 0px;
+  }
+
+  div.review-container{
+    padding: 20px 0px 10px;
+    border-bottom: 1px dotted #ccc;
+    div.img{
+      max-width: 74px;
+      height: 74px;
+      margin-right: 10px;
+      img{
+        max-height: 100%;
+        display: block;
+        margin: auto;
+        border-radius: 4px;
+      }
+    }
+    div.info-container{
+      h4{
+        margin-top: 0px;
+      }
+    }
+    div.review-body{
+      margin-top: 10px;
+    }
+    p.review-response{
+      background: #eee;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    textarea{
+      margin-bottom: 15px;
+    }
+  }
+
+  div.review-container:first-child{
+    padding-top: 0px;
+  }
+
+  div.review-container:last-child{
+    border-bottom: none;
+  }
+}
+
+div.row.empty{
+  opacity: 0.5;
+}
+
+div#social-links{
+  ul{
+    list-style: none;
+    padding: 0px;
+
+    li{
+      display: inline-block;
+      margin-right: 15px;
+      font-size: 25px;
+    }
+  }
+}
+
+div[dir=ltr]{
+  margin: auto;
+  display: block;
+}
+
+@media (max-width: 767px){
+  .modal-dialog{
+    margin: 0px;
+  }
+
+  div.business-page{
+    img.logo{
+      float: none !important;
+      display: block;
+      margin: 0px auto 25px;
+    }
+
+    .info-stuff{
+      float: none !important;
+    }
+
+    .actions{
+      position: relative;
+      right: auto;
+      clear: both;
+      float: none !important;
+      button, a{
+        min-width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+
+    h1.section-header{
+      width: 100%;
+      clear: both;
+      font-size: 25px;
+      text-align: center;
+
+      small.categories{
+        line-height: 20px;
+      }
+    }
+
+    div.left-business-section{
+      border-right: none;
+
+      div.map{
+        min-height: 150px;
+        height: 150px;
+        #map-canvas-0{
+          min-height: 150px;
+        }
+      }
+
+      div.info{
+        min-height: 100px;
+      }
+    }
+
+    div.featured-photos{
+      margin-top: 20px;
+    }
+  }
+}

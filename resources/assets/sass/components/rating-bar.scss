@@ -1,0 +1,42 @@
+ul.rating-icons{
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+  li{
+    display: inline-block;
+    img{
+      max-width: 40px;
+    }
+    img.inactive{
+      filter: grayscale(100%);
+      opacity: 0.5;
+    }
+    img.active{
+      filter: grayscale(0%);
+      opacity: 0.85;
+    }
+    img.hover{
+     filter: grayscale(0%);
+     opacity: 1;
+    }
+  }
+  li:hover{
+    cursor: pointer;
+  }
+}
+
+ul.rating-icons.md{
+  li{
+    img{
+      max-width: 34px;
+    }
+  }
+}
+
+ul.rating-icons.sm{
+  li{
+    img{
+      max-width: 20px;
+    }
+  }
+}

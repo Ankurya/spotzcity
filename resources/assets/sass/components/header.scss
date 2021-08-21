@@ -1,0 +1,105 @@
+@import "../variables";
+
+header{
+  nav.navbar-default{
+    max-height: 100px;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    //background: $navbar-bg center center no-repeat;
+    background: white;
+    background-size: cover;
+    color: #333;
+    li a{
+      padding: 20px 10px;
+    }
+    li.right-button{
+      padding: 13px 0px 8px 5px;
+      a.btn-user{
+        min-width: 150px;
+      }
+    }
+    a.navbar-brand{
+      margin-left: 0px !important;
+      padding: 8px 15px 6px;
+      height: 100%;
+    }
+    img{
+      max-height: 65px;
+    }
+    div.container-fluid{
+      width: 100%;
+      padding-top: 5px;
+    }
+    a.btn.btn-default{
+      padding: 6px 12px;
+      //background: rgba(255,255,255,0.2);
+      //color: #333;
+    }
+    a.btn.btn-default.dropdown-toggle{
+      background: #F7891F;
+      color: white;
+      border-color: #F7891F;
+    }
+    .dropdown-menu{
+      p.dropdown-item{
+        margin: 10px 0px;
+        a{
+          padding: 0px 10px;
+        }
+      }
+    }
+  }
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text{
+  font-size: 14px;
+}
+
+@media (max-width: 767px){
+  header{
+    z-index: 100;
+
+    nav{
+      z-index: 100;
+    }
+
+    .navbar-form{
+      margin-top: 0px;
+    }
+
+    .navbar-collapse{
+      background: #fcfbff;
+      padding: 0px 35px;
+      z-index: 101;
+    }
+
+    .navbar-toggle{
+      margin-top: 15px;
+    }
+
+    .navbar-header{
+      padding: 0px 10px;
+    }
+
+    nav.navbar-default{
+      li a{
+        font-size: 16px;
+        padding: 11px 10px;
+      }
+    }
+
+    nav.navbar-default img{
+      max-height: 50px;
+    }
+
+  }
+
+  h2.section-header{
+    z-index: 99;
+    font-size: 20px;
+  }
+
+}

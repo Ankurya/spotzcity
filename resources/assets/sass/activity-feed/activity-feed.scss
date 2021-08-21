@@ -1,0 +1,34 @@
+#activity-feed{
+  .btn-group{
+    float: right!important;
+    margin: -48px 0px 20px;
+  }
+}
+
+.activity{
+  padding: 15px 0px;
+  border-bottom: 1px dotted #ccc;
+}
+
+
+@media (max-width: 767px){
+  #activity-feed{
+    .btn-group{
+      margin: -45px -4px 20px;
+    }
+
+    div.business-pic{
+      min-height: 30px !important;
+      height: 42px;
+      line-height: 30px;
+    }
+
+    div.activity-desc{
+      width: 75%;
+    }
+
+    div.actvity-time{
+      font-size: 12px;
+    }
+  }
+}

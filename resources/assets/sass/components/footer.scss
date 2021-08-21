@@ -1,0 +1,64 @@
+footer{
+  margin-top: 20px;
+  background: url(/assets/images/footer-bkg.png) #65a1c3 center center no-repeat;
+  min-height: 200px;
+  border-bottom: 15px solid transparent;
+  div.container-fluid{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 1000px; // I hate my stupid self
+  }
+
+  h3.sub-header{
+    color: #fff;
+  }
+
+  ul.nav.nav-footer{
+    li{
+      a{
+        color: #eee;
+        padding: 6px 0px;
+        i{
+          margin-right: 5px;
+          vertical-align: middle;
+        }
+      }
+      a:hover, a:focus{
+        background: none;
+        outline: none;
+        color: white;
+      }
+    }
+
+    li:first-child{
+      a{
+        padding-top: 0px;
+      }
+    }
+    li:last-child{
+      a{
+        padding-bottom: 0px;
+      }
+    }
+  }
+
+  p{
+    color: #eee;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  div.right-logo{
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 767px){
+  footer{
+    text-align: center;
+
+    .right-logo{
+      text-align: center;
+    }
+  }
+}
